@@ -1,0 +1,38 @@
+.topbar {
+  border: 2px solid black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 99.5%;
+  height: 4rem;
+}
+
+.leftbar {
+  border: 2px solid rgb(255, 251, 0);
+  height: 32rem;
+  width: 12rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  float: left;
+}
+
+.rightbar {
+  border: 2px solid red;
+  height: 32rem;
+  width: 12rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  float: right;
+}
+
+.bottombar {
+  border: 2px solid blue;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 99.5%;
+  margin-top: 32.5rem;
+  height: 4rem;
+}
